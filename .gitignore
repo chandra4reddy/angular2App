@@ -1,0 +1,44 @@
+syntax: glob
+.sonar/
+node_modules/
+bower_components/
+build/build.js
+ssh/ssh.sh
+release/
+.resources__/
+dummiexman/
+xman/
+log/
+logs/
+temp/
+*.exe
+*.nupkg
+*.suo
+*.db
+*.sublime-workspace
+*.log
+*.min.*
+.nodemonignore
+.resources__
+npm-debug.log
+
+// IDE files
+.idea/*
+*.sln
+*.njsproj
+*.sublime-project
+*.sublime-workspace
+*.sublime*
+.vscode/*
+// OSx
+.DS_Store
+
+bower_components/immutable
+build/
+// VIM files
+**/*.sw*
+**/*.*~
+
+/resources/16x9/manifests
+/resources/16x9/desktop/manifests
+/resources/4x3/manifests
